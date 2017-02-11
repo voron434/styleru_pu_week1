@@ -6,7 +6,7 @@ Also there are full Eng interface with some russian comments.
 
 
 ***
-# 1.Hello_api_TMDB #
+# 1. Hello_api_TMDB #
 #### This is the first task, 
 I made function for searching film budget by it's number in TMDB.  
 You need to enter your api_key_v3, wich you could get [here](https://www.themoviedb.org/).  

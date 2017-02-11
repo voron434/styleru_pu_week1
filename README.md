@@ -1,6 +1,6 @@
 # styleru_py_week1
 This is result of my work with TMDB api:  
-All of those scripts require Python 3.x.  
+All of those scripts requires Python 3.x.  
 Each program could work separate, but 3th and 4th need DataBase from the second task to work.  
 Also there are full Eng interface with some russian comments.  
 
@@ -18,8 +18,8 @@ Then program print budget of film №215 in TMDB.
 #### Second task,
 I made program to download info about 1000 films from TMDB.  
 You could find this info in file MyFilmBD.json after run.  
-It also reqire api_key_v3.  
-> Remember, that you must delete this in couple of days, becouse TMDB don't allow to save their data
+It also requires api_key_v3.  
+> Remember, that you must delete this in couple of days, because TMDB don't allow to save their data
 
 
 ***

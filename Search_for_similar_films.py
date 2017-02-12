@@ -13,7 +13,7 @@ if __name__ == '__main__':
 
     if len(recommend) < num_of_films_to_recommend:
         recommend_by_budget = recommend_me_by(my_film, Films_data, 'budget')
-        while len(recommend_by_budget)>num_of_films_to_recommend-len(recommend):
+        while len(recommend_by_budget) > num_of_films_to_recommend - len(recommend):
             recommend_by_budget.pop()
 
     for film in sorted(recommend):

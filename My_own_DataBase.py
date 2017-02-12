@@ -22,7 +22,7 @@ if __name__ == '__main__':
                 print('smth wrong with code...')
 
     filename = 'MyFilmDB.json'
-    my_file = open(filename, mode='w', encoding='utf-8')
+    my_file = open(filename, mode = 'w', encoding = 'utf-8')
     json.dump(Big_Data, my_file)
     my_file.close()
 

@@ -6,6 +6,6 @@ if __name__ == '__main__':
     print('Enter film to search for:')
     search = input().capitalize()
     search1 = search.lower()
-    result = search_for_film(search1, Films_data)|search_for_film(search, Films_data)
+    result = search_for_film(search1, Films_data) | search_for_film(search, Films_data)
     for film in sorted(result):
         print(film)

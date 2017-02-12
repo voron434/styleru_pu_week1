@@ -9,3 +9,4 @@ if __name__ == '__main__':
     result = search_for_film(search1, Films_data) | search_for_film(search, Films_data)
     for film in sorted(result):
         print(film)
+

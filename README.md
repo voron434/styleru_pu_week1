@@ -1,8 +1,8 @@
 # styleru_py_week1
 This is result of my work with TMDB api:  
-All of those scripts requires Python 3.x.  
+All of these scripts requires Python 3.x.  
 Each program could work separate, but 3rd and 4th need DataBase from the second task to work.  
-Also there are full Eng interface with some russian comments.  
+Also there is full Eng interface.  
 
 
 ***

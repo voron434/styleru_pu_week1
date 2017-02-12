@@ -55,6 +55,7 @@ def search_for_film(search, Films_data):
         film_title = film['original_title'].split()
         if search in film_title:
             films_founded.add(film['original_title'])
+    films_founded.remove(search)
     return films_founded
 
 def is_there_my_film(search, Films_data):
@@ -69,4 +70,5 @@ def recommend_me_by(my_film, Films_data, by_this):
     for film in Films_data:
         if film[by_this] == my_film[by_this]:
             films_founded.add(film['original_title'])
+    films_founded.remove(my_film['original_title'])
     return films_founded

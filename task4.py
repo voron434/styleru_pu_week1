@@ -3,7 +3,7 @@ from helpers import is_there_my_film
 from helpers import search_for_film
 from helpers import recommend_me_by
 
-if __name__ == '__main__'
+if __name__ == '__main__':
     Films_data = load_data()
     print('Enter film to search for:')
     search = input()

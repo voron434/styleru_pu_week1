@@ -28,7 +28,8 @@ It also requires api_key_v3.
   64be4144d51bbaee6234f2w82bb  
   (here would be percents of code process  
   Process finished with exit code 0  
-  > Remember, that you must delete this in couple of days, because TMDB don't allow to save their data    
+  > Remember, that you must delete this in couple of days, because TMDB don't allow to save their data      
+  
 ***
 # 3. Search_in_DataBase #
 #### Third task,

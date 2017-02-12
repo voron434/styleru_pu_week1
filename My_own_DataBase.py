@@ -16,13 +16,12 @@ if __name__ == '__main__':
             print('percent complete: {}'.format(counter/10))
             film_number += 1
         except urllib.error.HTTPError as err:
-            if err.code == 404: #if no film on this id
+            if err.code == 404:  #if no film on this id
                 film_number += 1
             else:
                 print('smth wrong with code...')
 
     filename = 'MyFilmDB.json'
-    my_file = open(filename, mode = 'w', encoding = 'utf-8')
+    my_file = open(filename, mode='w', encoding='utf-8')
     json.dump(Big_Data, my_file)
     my_file.close()
-

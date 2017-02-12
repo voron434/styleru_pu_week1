@@ -23,13 +23,12 @@ Then program print budget of film №215 in TMDB.
 I made program to download info about 1000 films from TMDB.  
 You could find this info in file MyFilmBD.json after run.  
 It also requires api_key_v3.  
-> Remember, that you must delete this in couple of days, because TMDB don't allow to save their data
 #### example of code process:  
   Enter your api key v3  
   64be4144d51bbaee6234f2w82bb  
   (here would be percents of code process  
   Process finished with exit code 0  
-  
+  > Remember, that you must delete this in couple of days, because TMDB don't allow to save their data    
 ***
 # 3. Search_in_DataBase #
 #### Third task,

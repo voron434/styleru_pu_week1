@@ -22,7 +22,7 @@ def get_user_api_key():
     print('Enter your api key v3')
     user_api_key = input()
     try:
-        make_tmdb_api_request(method='/movie/2', api_key = user_api_key)
+        make_tmdb_api_request(method='/movie/2', api_key=user_api_key)
     except urllib.error.HTTPError as err:
         if err.code == 401:
             print('Invalid api key')
@@ -35,8 +35,8 @@ def get_movie_info(movie_number, user_api_key):
     return film_info
 
 def get_movie_budget(movie_number, user_api_key):
-    print(make_tmdb_api_request(method='/movie/%d' % movie_number, api_key = user_api_key)['budget'])
-
+    print(make_tmdb_api_request(method='/movie/%d' % movie_number, api_key=user_api_key)['budget'])
+    
 #=======================================================================================================
 def load_data():
     print('Enter path to DataBase:')
@@ -72,3 +72,4 @@ def recommend_me_by(my_film, Films_data, by_this):
             films_founded.add(film['original_title'])
     films_founded.remove(my_film['original_title'])
     return films_founded
+

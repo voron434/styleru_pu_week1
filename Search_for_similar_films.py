@@ -9,6 +9,7 @@ if __name__ == '__main__':
     search = input()
     my_film = is_there_my_film(search, Films_data)
     recommend = search_for_film(search, Films_data)
+    recommend.remove(search)
     num_of_films_to_recommend = 8
 
     if len(recommend) < num_of_films_to_recommend:

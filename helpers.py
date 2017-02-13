@@ -55,7 +55,6 @@ def search_for_film(search, Films_data):
         film_title = film['original_title'].split()
         if search in film_title:
             films_founded.add(film['original_title'])
-    films_founded.remove(search)
     return films_founded
 
 def is_there_my_film(search, Films_data):

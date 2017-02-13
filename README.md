@@ -18,7 +18,7 @@ Then program print budget of film №215 in TMDB.
   Process finished with exit code 0  
   
 ***
-# 2. My_own_DataBase #
+# 2. My_own_DB #
 #### Second task,
 I made program to download info about 1000 films from TMDB.  
 You could find this info in file MyFilmBD.json after run.  

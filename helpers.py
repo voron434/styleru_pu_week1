@@ -48,12 +48,11 @@ def load_data():
     except FileNotFoundError:
         print('File not found, sorry...')
         raise SystemExit
-
+        
 def search_for_film(search, Films_data):
     films_founded = set()
     for film in Films_data:
-        film_title = film['original_title'].split()
-        if search in film_title:
+        if film['original_title'].find(search) != -1:
             films_founded.add(film['original_title'])
     return films_founded
 

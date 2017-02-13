@@ -63,5 +63,5 @@ Also you must enter path to your DataBase.
   ***Il buono, il brutto, il cattivo***  
   ***Reservoir Dogs***  
   ***Strangers on a Train***  
-  ***The Day the Earth Stood Still*** 
+  ***The Day the Earth Stood Still***   
   ***Process finished with exit code 0***  

@@ -52,7 +52,7 @@ def load_data():
 def search_for_film(search, Films_data):
     films_founded = set()
     for film in Films_data:
-        if film['original_title'].find(search) != -1:
+        if search in film['original_title']:
             films_founded.add(film['original_title'])
     return films_founded
 

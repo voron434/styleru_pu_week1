@@ -43,7 +43,7 @@ You must enter path to DataBase, and then program will search for your film and 
   ***Saw***  
   ***Saw II***  
   ***Saw III***  
-  ***Saw IV***
+  ***Saw IV***  
   ***Process finished with exit code 0***  
   ***
 # 4. Search_for_similar_films #
@@ -63,4 +63,5 @@ Also you must enter path to your DataBase.
   ***Il buono, il brutto, il cattivo***  
   ***Reservoir Dogs***  
   ***Strangers on a Train***  
-  ***The Day the Earth Stood Still***  
+  ***The Day the Earth Stood Still*** 
+  ***Process finished with exit code 0***  

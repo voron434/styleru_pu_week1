@@ -20,8 +20,7 @@ def make_tmdb_api_request(method, api_key, extra_params=None):
     return load_json_data_from_url(url, params)
 
 def get_user_api_key():
-    print('Enter your api key v3')
-    user_api_key = getpass()
+    user_api_key = getpass('Enter your api key v3:')
     try:
         make_tmdb_api_request(method='/movie/2', api_key = user_api_key)
     except urllib.error.HTTPError as err:

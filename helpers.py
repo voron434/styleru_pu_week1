@@ -21,7 +21,7 @@ def make_tmdb_api_request(method, api_key, extra_params=None):
 
 def get_user_api_key():
     print('Enter your api key v3')
-    user_api_key = getpass()
+    user_api_key = input() #use getpass()
     try:
         make_tmdb_api_request(method='/movie/2', api_key = user_api_key)
     except urllib.error.HTTPError as err:
@@ -78,11 +78,29 @@ def is_my_film_there(search, films_data):
     print('No such film in FilmsDB')
     raise SystemExit
 
-def recommend_me_by(my_film, Films_data, by_this):
-    films_founded = set()
-    for film in Films_data:
-        if film[by_this] == my_film[by_this]:
-            films_founded.add(film['original_title'])
-    films_founded.remove(my_film['original_title'])
+def recommend(my_film, films_data, num_to_recommend=8):
+    params = {
+        'belongs_to_collection': 1000,
+        'original_language': 300,
+        'budget': 100,
+        'genres': 500
+    }
+    rating = {}
+    for film in films_data:
+        film_rate = 0
+        for parameter in params:
+            if film[parameter] == my_film[parameter]:
+                film_rate += params[parameter]
+        rating[film['original_title']] = film_rate
+
+    films_founded = []
+    for counter in range(num_to_recommend):
+        max_rate = -1
+        for film_title in rating:
+            if rating[film_title] > max_rate:
+                max_rate = rating[film_title]
+                max_rated_film = film_title
+        rating[max_rated_film] = -1
+        films_founded.append(max_rated_film)
     return films_founded
 

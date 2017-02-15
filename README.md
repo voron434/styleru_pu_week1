@@ -6,7 +6,7 @@ Also there is full Eng interface.
 
 
 ***
-# 1. Hello_api_TMDB #
+# 1. hello_api_TMDB #
 #### This is the first task, 
 I made function for searching film budget by it's number in TMDB.  
 You need to enter your api_key_v3, wich you could get [here](https://www.themoviedb.org/).  
@@ -18,7 +18,7 @@ Then program print budget of film №215 in TMDB.
   ***Process finished with exit code 0***  
   
 ***
-# 2. My_own_DB #
+# 2. my_own_DB #
 #### Second task,
 I made program to download info about 1000 films from TMDB.  
 You could find this info in file MyFilmBD.json after run.  
@@ -31,7 +31,7 @@ It also requires api_key_v3.
   > Remember, that you must delete this in couple of days, because TMDB don't allow to save their data      
   
 ***
-# 3. Search_in_DataBase #
+# 3. search_in_DataBase #
 #### Third task,
 This program search for film in DataBase from second task.  
 You must enter path to DataBase, and then program will search for your film and print similar results.  
@@ -46,7 +46,7 @@ You must enter path to DataBase, and then program will search for your film and 
   ***Saw IV***  
   ***Process finished with exit code 0***  
   ***
-# 4. Search_for_similar_films #
+# 4. search_for_similar_films #
 #### Fourth task,
 This program will try to find similar to your entered film.  
 You must print **correct** title to find smth.  

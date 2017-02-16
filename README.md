@@ -33,7 +33,7 @@ It also requires api_key_v3.
   > Remember, that you must delete this in couple of days, because TMDB don't allow to save their data      
   
 ***
-# 3. search_in_DataBase #
+# 3. search_in_DB #
 #### Third task,
 This program search for film in DataBase from second task.  
 You must enter path to DataBase, and then program will search for your film and print similar results.  

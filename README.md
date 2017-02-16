@@ -40,7 +40,7 @@ You must enter path to DataBase, and then program will search for your film and 
 #### example of code process:  
   *python search_in_DB.py*  
   ***Enter path to DataBase:***  
-  *MyFilmBD.json*  
+  *MyFilmDB.json*  
   ***Enter film to search for:***  
   *Saw*  
   ***Saw***  
@@ -57,7 +57,7 @@ Also you must enter path to your DataBase.
 #### example of code process:  
   *search_for_similar_films.py*  
   ***Enter path to DataBase:***  
-  *MyFilmBD.json*  
+  *MyFilmDB.json*  
   ***Enter film to search for:***  
   *Saw*   
   ***Harold and Maude***  

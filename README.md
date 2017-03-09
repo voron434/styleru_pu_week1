@@ -6,11 +6,10 @@ Also there is full Eng interface.
 
 
 ***
-# 1. hello_api_TMDB #
-#### This is the first task, 
-I made function for searching film budget by it's number in TMDB.  
+# 1. hello_api_tmdb #
+#### This is the first task,  
 You need to enter your api_key_v3, wich you could get [here](https://www.themoviedb.org/).  
-Then program print budget of film №215 in TMDB.  
+Then program print budget of film №215 in TMDB (wich is Saw II).    
 #### example usage:
     $python hello_api_TMDB.py  
     Enter your api key v3:  
@@ -19,7 +18,7 @@ Then program print budget of film №215 in TMDB.
     Process finished with exit code 0  
   
 ***
-# 2. my_own_DB #
+# 2. make_own_db #
 #### Second task,
 I made program to download info about smth like 1000 films from TMDB.  
 You could find this info in file MyFilmBD.json after run.  
@@ -33,7 +32,7 @@ It also requires api_key_v3.
   > Remember, that you must delete this in couple of days, because TMDB don't allow to save their data      
   
 ***
-# 3. search_in_DB #
+# 3. search_in_db #
 #### Third task,
 This program search for film in DataBase from second task.  
 You must enter path to DataBase, and then program will search for your film and print similar results.  

@@ -19,7 +19,7 @@ def load_json_data_from_url(base_url, url_params):
     return json.loads(response)
 
 def get_user_api_key():
-    user_api_key =input()# getpass('Enter your api key v3:')
+    user_api_key = getpass('Enter your api key v3:')
     try:
         make_tmdb_api_request(method='/movie/2', api_key = user_api_key)
         return user_api_key

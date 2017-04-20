@@ -1,9 +1,20 @@
+[![travis build](https://img.shields.io/travis/Stark-Mountain/meetup-facebook-bot.svg?style=flat-square)](https://travis-ci.org/Stark-Mountain/meetup-facebook-bot)
+[![codecov coverage](https://img.shields.io/codecov/c/github/Stark-Mountain/meetup-facebook-bot.svg?style=flat-square)](https://codecov.io/github/Stark-Mountain/meetup-facebook-bot)
+[![version](https://img.shields.io/npm/v/meetup-facebook-bot.svg?style=flat-square)](http://npm.im/meetup-facebook-bot)
+[![downloads](https://img.shields.io/npm/dm/meetup-facebook-bot.svg?style=flat-square)](http://npm-stat.com/charts.html?package=meetup-facebook-bot&from=2015-08-01)
+[![MIT License](https://img.shields.io/npm/l/meetup-facebook-bot.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release) 
+    
+
+
+
+
 # styleru_py_week1
 This is result of my work with TMDB api:  
 All of these scripts requires Python 3.x.  
 Each program could work separate, but 3rd and 4th need DataBase from the second task to work.  
 Also there is full Eng interface.  
-
+***
 
 ***
 # 1. hello_api_tmdb #

@@ -2,9 +2,7 @@
 This is result of my work with TMDB api:  
 All of these scripts requires Python 3.x.  
 Each program could work separate, but 3rd and 4th need DataBase from the second task to work.  
-Also there is full Eng interface.  
-***
-
+Also there is full Eng interface.  \
 ***
 # 1. hello_api_tmdb #
 #### This is the first task,  
